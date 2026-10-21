@@ -91,7 +91,8 @@ people:
     parents: [fred-chasen, arlene-chasen]
 
   - id: maddie-chasen
-    name: Maddie Chasen
+    name: Madeleine Ann Chasen
+    nickname: Maddie
     born:                      # TODO
     parents: [fred-chasen, arlene-chasen]
 
