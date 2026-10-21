@@ -73,16 +73,60 @@ people:
 
   # ── Chasen side ────────────────────────────────────────────────────────────
 
+  - id: ethel-chasen
+    name: Ethel Chasen
+    born:                      # TODO
+    spouses:
+
+  - id: abraham-chasen
+    name: Abraham Chasen
+    born:                      # TODO
+    spouses:
+      - id: ethel-chasen
+        married:               # TODO
+
+  - id: charles-mopsik
+    name: Charles Mopsik
+    nickname: Charlie
+    born:                      # TODO
+  
+  - id: matilda-mopsik
+    name: Matilda Mopsik
+    born:                      # TODO
+    spouses:
+      - id: charles-mopsik
+        married:               # TODO
+
+  - id: stan-mopsik
+    name: Stanley Ira Mopsik
+    nickname: Stan
+    born:                      # TODO
+    spouses:
+      - id: wendy-mopsik
+        married:               # TODO
+    parents: [charles-mopsik, matilda-mopsik]
+
+  - id: wendy-mopsik
+    name: Wendy Sykes Mopsik
+    born:                      # TODO
+    spouses:
+      - id: stan-mopsik
+        married:               # TODO
+  
   - id: fred-chasen
-    name: Fred Chasen
+    name: Frederick Chasen
+    nickname: Fred
     born:                      # TODO
     spouses:
       - id: arlene-chasen
-        married:               # TODO
+        married: 1964               # TODO
+    parents: [ethel-chasen, abraham-chasen]
 
   - id: arlene-chasen
     name: Arlene Chasen
     born:                      # TODO
+    birth_name: Mopsik
+    parents: [charles-mopsik, matilda-mopsik]
 
   - id: jeff-chasen
     name: Jeffrey Martin Chasen
@@ -95,6 +139,14 @@ people:
     nickname: Maddie
     born:                      # TODO
     parents: [fred-chasen, arlene-chasen]
+
+  - id: dave-buckley
+    name: David Paul Buckley
+    nickname: Dave
+    born:                      # TODO
+    spouses:
+      - id: maddie-chasen
+        married:               # TODO
 
   # ── Laurence-Chasen ────────────────────────────────────────────────────────
 
