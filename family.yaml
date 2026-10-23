@@ -65,7 +65,7 @@ people:
 
   - id: robin-laurence
     name: Robin Lynn Laurence
-    born: 1965
+    born: 1965-04-04
     parents: [ronald-laurence, lois-laurence]
     spouses:
       - id: jeff-chasen
@@ -87,7 +87,7 @@ people:
   - id: jeff-chasen
     name: Jeffrey Martin Chasen
     nickname: Jeff
-    born: 1966
+    born: 1966-09-03
     parents: [fred-chasen, arlene-chasen]
 
   - id: maddie-chasen
@@ -99,13 +99,13 @@ people:
 
   - id: anna-laurence-chasen
     name: Anna Sequoia Laurence-Chasen
-    born: 1995
+    born: 1995-01-29
     parents: [robin-laurence, jeff-chasen]
 
   - id: jd-laurence-chasen
     name: Jeffrey David Laurence-Chasen
     nickname: J.D.
-    born: 1995
+    born: 1995-01-29
     parents: [robin-laurence, jeff-chasen]
     tagline: Keeper of this family history
     bio: |
