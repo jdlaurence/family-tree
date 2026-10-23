@@ -1,0 +1,11 @@
+{
+  "name": "family-tree",
+  "private": true,
+  "type": "module",
+  "description": "A password-gated interactive family tree for GitHub Pages. No build step.",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "hash": "node scripts/hash-password.mjs",
+    "serve": "python3 -m http.server 8080"
+  }
+}

@@ -1,0 +1,114 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  THE FAMILY FILE
+#
+#  This one file is the whole family archive. Edit it here on GitHub (pencil
+#  icon → commit) and the site updates within a minute or two.
+#
+#  Each person is a block under "people:". Only "id" and "name" are required.
+#  See README.md for the full list of fields and examples.
+#
+#  Quick reference
+#    id          short, stable, lowercase slug (never change it once set)
+#    name        full name as they'd introduce themselves
+#    birth_name  maiden / birth surname, shown as "née …"
+#    nickname    what the family calls them; also used as the short name on the tree
+#    short_name  override the name printed on the tree (default: first + last word)
+#    born/died   1965  |  1965-03  |  1965-03-12  |  c. 1932  (leave off if unknown)
+#    deceased    true  — if they have died but you don't know the date
+#    born_place / died_place
+#    photo       filename in the photos/ folder (square-ish JPEG, ~400px works well)
+#    parents     list of ids (one or two)
+#    spouses     list of { id, married, divorced, widowed }
+#    tagline     one line shown on hover
+#    bio         Markdown paragraphs
+#    facts       list of short fun facts
+#    stories     list of { title, told_by, date, text }
+# ─────────────────────────────────────────────────────────────────────────────
+
+title: The Laurence–Chasen Family
+
+people:
+
+  # ── Laurence side ──────────────────────────────────────────────────────────
+
+  - id: ronald-laurence
+    name: Ronald Laurence
+    born:                      # TODO
+    parents: []
+    spouses:
+      - id: lois-laurence
+        married:               # TODO
+
+  - id: lois-laurence
+    name: Lois Laurence
+    birth_name: Shutz
+    born:                      # TODO
+
+  - id: rb-laurence
+    name: Ronald Bruce Laurence
+    nickname: R.B.
+    born:                      # TODO
+    parents: [ronald-laurence, lois-laurence]
+    spouses:
+      - id: bridgette-laurence
+        married:               # TODO
+
+  - id: bridgette-laurence
+    name: Bridgette Laurence
+    born:                      # TODO
+
+  - id: amy-conroy
+    name: Amy Conroy
+    birth_name: Laurence
+    born:                      # TODO
+    parents: [ronald-laurence, lois-laurence]
+
+  - id: robin-laurence
+    name: Robin Lynn Laurence
+    born: 1965
+    parents: [ronald-laurence, lois-laurence]
+    spouses:
+      - id: jeff-chasen
+        married:               # TODO
+
+  # ── Chasen side ────────────────────────────────────────────────────────────
+
+  - id: fred-chasen
+    name: Fred Chasen
+    born:                      # TODO
+    spouses:
+      - id: arlene-chasen
+        married:               # TODO
+
+  - id: arlene-chasen
+    name: Arlene Chasen
+    born:                      # TODO
+
+  - id: jeff-chasen
+    name: Jeffrey Martin Chasen
+    nickname: Jeff
+    born: 1966
+    parents: [fred-chasen, arlene-chasen]
+
+  - id: maddie-chasen
+    name: Maddie Chasen
+    born:                      # TODO
+    parents: [fred-chasen, arlene-chasen]
+
+  # ── Laurence-Chasen ────────────────────────────────────────────────────────
+
+  - id: anna-laurence-chasen
+    name: Anna Sequoia Laurence-Chasen
+    born: 1995
+    parents: [robin-laurence, jeff-chasen]
+
+  - id: jd-laurence-chasen
+    name: Jeffrey David Laurence-Chasen
+    nickname: J.D.
+    born: 1995
+    parents: [robin-laurence, jeff-chasen]
+    tagline: Keeper of this family history
+    bio: |
+      J.D. started this archive in 2026 while interviewing relatives about the
+      family's history. *(Replace this with a real bio — anything written here in
+      Markdown shows up in the side panel.)*
